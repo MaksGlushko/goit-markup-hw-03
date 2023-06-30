@@ -34,24 +34,20 @@
     }
     .container {
         width: 100%;
-        max-width: 1440px;
-        padding-left: 72px;
-        padding-right: 72px;
+        max-width: 1150px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
         outline: 2px solid red;
     }
     /* --------------HEADER-------------- */
     
     .header {
-        padding-top: 24px;
-        padding-bottom: 24px;
         border-bottom: 1px solid #e7e9fc;
     }
     .header-container {
         display: flex;
         align-items: center;
-        width: 1158px;
-        padding: 0 15px;
         
         
     }
@@ -76,12 +72,17 @@
     }
     .header-text-link {
         padding: 24px 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
     }
     .header-menu {
         display: flex;
-        margin-left: 76px;
         gap: 40px;
-        padding: 24px 0;
     
     }
     .header-soc {
@@ -93,20 +94,6 @@
     .header-navigation {
         display: flex;
         align-items: center;
-        flex-grow: 1;
-        margin-right: 76px;
-        padding: 24px 0;
-        
-    }
-    .header-menu {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--title-color);
-        padding: 24px 0;
     }
     .header-navigation {
         list-style: none;
@@ -152,7 +139,7 @@
     .header-address {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        margin-left: auto;
     }
     .header-title-item {
         padding: 24px 0;
@@ -161,6 +148,8 @@
     .hero {
         background-color: #2E2F42;
         padding: 188px 0;
+        height: 600px;
+        margin: 0 auto;
     }
     .hero-title {
         font-weight: 700;
@@ -173,9 +162,7 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 48px;
-    padding-bottom: 120px;
-    padding-top: 120px;
+    margin-bottom: 48px;
     }
     .hero-btn {
         width: 169px;
@@ -224,7 +211,6 @@
     letter-spacing: 0.02em;
     color: var(--title-color);
     margin-bottom: 8px;
-    padding: 120px 0;
     }
     .benefists-item-text {
     font-weight: 400;
@@ -233,10 +219,8 @@
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     margin-bottom: 8px;
-    padding: 120px 0;
     }
     .benefists-item {
-        display: flex;
         width: calc((100% - 72px) / 4);
     
     }
@@ -271,6 +255,10 @@
     text-transform: capitalize;
     color: #2E2F42; 
     width: calc((100% - 48px) / 3);
+    }
+    .products-list {
+        display: flex;
+        gap: 24px;
     }
     /* --------------TEAM-------------- */
     .team-container {
